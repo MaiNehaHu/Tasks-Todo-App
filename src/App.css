@@ -1,0 +1,186 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+  background: linear-gradient(to top, blue 10%, pink 70%);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 70vw;
+  min-height: 85vh;
+  padding: 20px;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+
+  box-shadow: 0 0px 15px white;
+  background-color: #8b8b8b39;
+  backdrop-filter: blur(5px);
+}
+.main-div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#add,
+#remove,
+#removeall {
+  margin-left: 5px;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 3rem;
+  font-size: larger;
+  color: white;
+  border: 2px solid black;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+#add {
+  background-color: blue;
+  padding: 10px 25px 10px;
+  border: 3px solid navy;
+}
+#remove {
+  background: orangered;
+  border: 3px solid rgb(255, 51, 0);
+}
+#removeall {
+  background-color: purple;
+  border: 3px solid palevioletred;
+}
+#add:hover {
+  background-color: rgb(0, 17, 198);
+}
+#remove:hover {
+  background-color: rgb(237, 87, 0);
+}
+#removeall:hover {
+  background-color: rgb(216, 3, 166);
+}
+
+#count {
+  font-size: 80px;
+  margin-right: 15px;
+  font-family: "Monoton", cursive;
+}
+#msg {
+  position: relative;
+  font-size: 40px;
+  bottom: 20px;
+  font-family: "Zilla Slab Highlight", cursive;
+}
+h1 {
+ margin: 0 0 0;
+}
+input[type="text"] {
+  height: 40px;
+  font-size: larger;
+  font-family: "Righteous", cursive;
+}
+.todo-list {
+  width: 60vw;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  #count {
+    font-size: 50px;
+  }
+  #msg {
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+  }
+  input[type="text"] {
+    height: 30px;
+    font-size: x-large;
+  }
+  #add,
+  #remove,
+  #removeall {
+    margin: 5px 5px 8px;
+    padding: 10px;
+    border-radius: 2rem;
+    font-size: small; 
+  }
+  #add{
+    padding: 10px 20px 10px;
+  }
+}
+@media screen and (max-width: 390px) {
+  #add,
+  #remove,
+  #removeall {
+    margin: 5px 5px 8px;
+    padding:2px 5px 2px;
+    border-radius: 2rem;
+    font-size: smaller; 
+  }
+  input[type="text"] {
+    height: 25px;
+    font-size: large;
+  }
+}
