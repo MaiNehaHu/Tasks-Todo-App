@@ -4,16 +4,17 @@
   box-sizing: border-box;
 }
 body {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
-  overflow: hidden;
+  padding: 100px 0 100px;
+  overflow-x: hidden;
 
   background: linear-gradient(to top, blue 10%, pink 70%);
   background-repeat: no-repeat;
   background-size: cover;
 
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
 }
 .container {
@@ -29,7 +30,6 @@ body {
 
   box-shadow: 0 0px 15px white;
   background-color: #8b8b8b39;
-  backdrop-filter: blur(5px);
 }
 .main-div {
   display: flex;
