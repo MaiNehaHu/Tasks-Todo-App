@@ -5,7 +5,11 @@
 }
 body {
   height: 100%;
+<<<<<<< HEAD
   width: 100vw;
+=======
+  width: 100%;
+>>>>>>> 6929a52914760cdc87f2bccfa12d467a99666ad0
   padding: 100px 0 100px;
   overflow-x: hidden;
 
@@ -19,7 +23,7 @@ body {
 }
 .container {
   width: 70vw;
-  min-height: 85vh;
+  min-height: 85%;
   padding: 20px;
   border-radius: 1rem;
 
