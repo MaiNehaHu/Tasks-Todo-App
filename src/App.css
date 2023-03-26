@@ -6,7 +6,7 @@
 body {
   height: 100%;
   width: 100vw;
-  padding: 100px 0 100px;
+  padding: 56px 0 56px;
   overflow-x: hidden;
 
   background: linear-gradient(to top, blue 10%, pink 70%);
@@ -16,6 +16,11 @@ body {
   display: flex;
   align-items: start;
   justify-content: center;
+}
+@media screen and (max-width:500px) {
+  body{
+    padding: 100px 0 100px;
+  }
 }
 .container {
   width: 70vw;
