@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Tasks-Todo-App/static/css/main.64fb41c6.css",
+    "main.css": "/Tasks-Todo-App/static/css/main.b3d69dc3.css",
     "main.js": "/Tasks-Todo-App/static/js/main.ad362caa.js",
     "index.html": "/Tasks-Todo-App/index.html",
-    "main.64fb41c6.css.map": "/Tasks-Todo-App/static/css/main.64fb41c6.css.map",
+    "main.b3d69dc3.css.map": "/Tasks-Todo-App/static/css/main.b3d69dc3.css.map",
     "main.ad362caa.js.map": "/Tasks-Todo-App/static/js/main.ad362caa.js.map"
   },
   "entrypoints": [
-    "static/css/main.64fb41c6.css",
+    "static/css/main.b3d69dc3.css",
     "static/js/main.ad362caa.js"
   ]
 }
